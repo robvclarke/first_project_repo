@@ -13,7 +13,7 @@ body{
 
 /* headings and logo */
 
-h1, h2 {
+h1, h2{
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -194,4 +194,19 @@ h1, h2 {
     background-position: center;
     width: 100%;
     overflow: hidden;
+}
+
+#times div{
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    width: 20%;
+    height: 300px;
+    float: left;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+#times h2 {
+    color: #fafafa;
 }
